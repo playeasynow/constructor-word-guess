@@ -7,7 +7,7 @@ Orig. Deployment - October 28, 2018
 The challenge was to write a word guess game--similar to our earlier word guess game--but now using constructors! Can you say refactoring? :)
 
 # User Guide
-<a href="https://drive.google.com/file/d/1WPM1oqKuEzy-Dmt3MeUzkw_w9-UFJ5LK/view
+<a href="https://drive.google.com/file/d/13tdZBthqLYbPB_8zowx5hQEwSoGNpQpi/view
 " target="_blank"><img src="./screenShot.png" 
 alt="liri app" width="400" height="180" border="10" /></a>
 
