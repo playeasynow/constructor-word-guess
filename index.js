@@ -1,12 +1,12 @@
 const Word = require("./Word.js");
 const inquirer = require("inquirer");
 
-const wordBank = [
-  "mercury", "venus", "earth",
-  "mars", "jupiter", "saturn",
-  "uranus", "neptune", "pluto",
-  "ceres", "eris", "makemake",
-  "haumea"
+const words = [
+  "ppp", "beyondlove", "drunkinla",
+  "levitation", "DARLING", "spacesong",
+  "dive", "lemonglow", "thehours",
+  "lazuli", "commongirl", "masterofnone",
+  "gila"
 ];
 
 let guesses;
@@ -16,19 +16,27 @@ let pickedWord;
 
 function init() {
   pickedWords = [];
-  console.log("Hello, and welcome to Word Guess in Space!");
   console.log("------------------------------------------");
+  console.log("--------------  --  ----------------------");
+  console.log("-------------  ----  ---------------------");
+  console.log("--------------  --  ----------------------");
+  console.log("---------------- -------------------------");
+  console.log("Hi! This is a Beach House word guess game.");
+  console.log("------------------------------------------");
+  console.log("Words are songs by Beach House, no spaces.");
+  console.log("------------------------------------------");
+
   playGame();
 }
 
 function playGame() {
   pickedWord = "";
   guesses = 15;
-  if(pickedWords.length < wordBank.length) {
+  if(pickedWords.length < words.length) {
     pickedWord = getWord();
   } else {
     // WIN CONDITION
-    console.log("You know a lot about your celestial neighborhood. Cheers!");
+    console.log("Victoria and Alex would be so proud. Nice!");
     continuePrompt();
   }
   if(pickedWord) {
@@ -39,8 +47,8 @@ function playGame() {
 }
 
 function getWord() {
-  let rand = Math.floor(Math.random() * wordBank.length);
-  let randomWord = wordBank[rand];
+  let rand = Math.floor(Math.random() * words.length);
+  let randomWord = words[rand];
   if(pickedWords.indexOf(randomWord) === -1) {
     pickedWords.push(randomWord);
     return randomWord;
@@ -73,7 +81,7 @@ function makeGuess() {
         makeGuess();
       }
     } else {
-      console.log("CONGRATULATIONS! YOU GOT THE WORD!");
+      console.log("CONGRATS! YOU GOT THE WORD!");
       console.log(word.update());
       playGame();
     }
