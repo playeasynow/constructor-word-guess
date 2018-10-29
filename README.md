@@ -9,7 +9,7 @@ The challenge was to write a word guess game--similar to our earlier word guess 
 # User Guide
 <a href="https://drive.google.com/file/d/1WPM1oqKuEzy-Dmt3MeUzkw_w9-UFJ5LK/view
 " target="_blank"><img src="./screenShot.png" 
-alt="liri app" width="600" height="180" border="10" /></a>
+alt="liri app" width="400" height="180" border="10" /></a>
 
 Here's how it works:
 
