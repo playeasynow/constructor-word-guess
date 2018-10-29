@@ -1,4 +1,4 @@
-# Constructor Word Guess - Beach House edition 🤖
+# Constructor Word Guess - Beach House Edition :heartbeat:
 UT Austin Coding Bootcamp | Unit 11 js constructors \
 v1.0 \
 Orig. Deployment - October 28, 2018
